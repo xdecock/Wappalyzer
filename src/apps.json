@@ -11120,7 +11120,7 @@
 			"cats": [
 				"6"
 			],
-			"robotsTxt": "Disallow: \\/product\\/summery\\/",
+			"robotsTxt": "Disallow: /order/summery/",
 			"html": "<p class=\"enitiative_link\" align=\"center\">",
 			"website": "http://www.e-nitiative.be/"
                },

@@ -68,7 +68,7 @@ class Wappalyzer {
       if ( data.scripts ) {
         this.analyzeScripts(app, data.scripts);
       }
-      
+
       if ( data.headers ) {
         this.analyzeHeaders(app, data.headers);
       }

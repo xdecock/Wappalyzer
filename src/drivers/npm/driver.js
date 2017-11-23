@@ -6,6 +6,7 @@ const url = require('url');
 const fs = require('fs');
 const Browser = require('zombie');
 
+const robotto = require('robotto');
 const json = JSON.parse(fs.readFileSync(__dirname + '/apps.json'));
 
 class Driver {
@@ -119,17 +120,28 @@ class Driver {
                   .apply(browser.document.scripts)
                   .filter(s => s.src)
                   .map(s => s.src);
+                const wappalyzer = this.wappalyzer;
+		request(robotto.getRobotsUrl(pageUrl.href), function(error, response, body) {
+		  if (body) {
+                    wappalyzer.analyze(pageUrl.hostname, pageUrl.href, {
+                      headers,
+                      html,
+                      env: vars,
+                      scripts,
+		      robotsTxt: body
+                    });
+                  } else {
+                    wappalyzer.analyze(pageUrl.hostname, pageUrl.href, {
+                      headers,
+                      html,
+                      env: vars,
+                      scripts
+                    });
+                  }
+                  const links = browser.body.getElementsByTagName('a');
 
-                this.wappalyzer.analyze(pageUrl.hostname, pageUrl.href, {
-                  headers,
-                  html,
-                  env: vars,
-                  scripts
-                });
-
-                const links = browser.body.getElementsByTagName('a');
-
-                resolve(links);
+                  resolve(links);
+		})
               });
           });
         });
