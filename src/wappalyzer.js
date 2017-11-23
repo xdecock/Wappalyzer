@@ -492,7 +492,6 @@ class Wappalyzer {
    */
   analyzeRobotsTxt(app, robotsTxt) {
     var patterns = this.parsePatterns(app.props.robotsTxt);
-
     if ( patterns.length ) {
       patterns.forEach(pattern => {
         if ( pattern.regex.test(robotsTxt) ) {

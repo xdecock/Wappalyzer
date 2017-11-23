@@ -5384,6 +5384,15 @@
 			},
 			"website": "http://www.mietshop.de/"
 		},
+		"Mijnwebwinkel": {
+			"cats": [
+				"6"
+			],
+                        "meta": {
+                                "generator": "Mijnwebwinkel"
+                        },
+			"website": "mijnwebwinkel.nl"
+		},
 		"Milligram": {
 			"cats": [
 				"18"
@@ -6350,6 +6359,15 @@
 			"implies": "Microsoft ASP.NET",
 			"url": "/owa/auth/log(?:on|off)\\.aspx",
 			"website": "http://help.outlook.com"
+		},
+		"Oxatys": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Oxatis (www.oxatis.com)"
+			},
+			"website": "www.oxatis.com"
 		},
 		"PANSITE": {
 			"cats": [
@@ -9566,6 +9584,15 @@
 			"script": "cdn\\d+\\.editmysite\\.com",
 			"website": "http://www.weebly.com"
 		},
+		"Weezbe": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "weezbe"
+			},
+			"website": "https://www.weezbe.com"
+		},
 		"Wikinggruppen": {
 			"cats": [
 				"6"
@@ -9637,6 +9664,13 @@
 				"X-Powered-By": "Winstone(?:.([\\d.]+))?\\;version:\\1"
 			},
 			"website": "http://winstone.sourceforge.net"
+		},
+		"Wizishop": {
+			"cats": [
+				"6"
+			],
+			"website": "https://www.wizishop.fr",
+			"html": "\\.(?:wizishop|cdnws)\\."
 		},
 		"Wix": {
 			"cats": [
@@ -11131,32 +11165,93 @@
 			},
 			"website": "http://www.xt-commerce.com"
 		},
-		"Raychat": {
+    "Raychat": {
+      "cats": [
+        "52"
+      ],
+      "env": "^Raychat$",
+      "icon": "raychat.svg",
+      "script": "app\\.raychat\\.io/scripts/js",
+      "website": "https://raychat.io"
+    },
+    "Mautic": {
+      "cats": [
+        "32"
+      ],
+      "env": "^MauticTrackingObject$",
+      "icon": "mautic.svg",
+      "script": "[^a-z]mtc.*\\.js",
+      "website": "https://www.mautic.org/"
+    },
+    "Anetwork": {
+    	"cats": [
+     		"36"
+    	],
+    	"icon": "Anetwork.png",
+   		"script": "static-cdn\\.anetwork\\.ir/",
+    	"website": "https://www.anetwork.ir"
+   	},
+               "Mijnwebwinkel": {
+                       "cats": [
+                               "6"
+                       ],
+                        "meta": {
+                                "generator": "Mijnwebwinkel"
+                        },
+                       "website": "mijnwebwinkel.nl"
+               },
+               "Oxatys": {
+                       "cats": [
+                               "6"
+                       ],
+                       "meta": {
+                               "generator": "Oxatis (www.oxatis.com)"
+                       },
+                       "website": "www.oxatis.com"
+               },
+               "Weezbe": {
+                       "cats": [
+                               "6"
+                       ],
+                       "meta": {
+                               "generator": "weezbe"
+                       },
+                       "website": "https://www.weezbe.com"
+               },
+               "Wizishop": {
+                       "cats": [
+                               "6"
+                       ],
+                       "website": "https://www.wizishop.fr",
+                       "html": "\\.(?:wizishop|cdnws)\\."
+               },
+               "42Stores": {
+                       "cats": [
+                               "6"
+                       ],
+                       "website": "https://www.42stores.com/",
+                       "html": "/?pf="
+               },
+               "CartIconFont-Awesome": {
+                       "cats": [
+                               "6"
+                       ],
+                       "html": "fa fa-shopping-cart\\;confidence:15"
+               },
+               "One.com webshop": {
 			"cats": [
-				"52"
+				"6"
 			],
-			"env": "^Raychat$",
-			"icon": "raychat.svg",
-			"script": "app\\.raychat\\.io/scripts/js",
-			"website": "https://raychat.io"
-		},
-		"Mautic": {
+			"html": "<onecom-webshop-main class=\""
+               },
+               "E-nitiative.be": {
 			"cats": [
-				"32"
+				"6"
 			],
-			"env": "^MauticTrackingObject$",
-			"icon": "mautic.svg",
-			"script": "[^a-z]mtc.*\\.js",
-			"website": "https://www.mautic.org/"
-		},
-		"Anetwork": {
-			"cats": [
-				"36"
-			],
-			"icon": "Anetwork.png",
-			"script": "static-cdn\\.anetwork\\.ir/",
-			"website": "https://www.anetwork.ir"
-		},
+			"robotsTxt": "Disallow: \\/product\\/summery\\/",
+			"html": "<p class=\"enitiative_link\" align=\"center\">",
+			"website": "http://www.e-nitiative.be/"
+               },
 		"Akaunting": {
 			"cats": [
 				"55"
