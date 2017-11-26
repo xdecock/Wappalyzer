@@ -387,16 +387,16 @@
 			"script": "shop-static\\.afterbuy\\.de",
 			"website": "http://www.afterbuy.de"
 		},
-    "Afosto": {
-      "cats": [
-        "6"
-      ],
-      "headers": {
-        "X-Powered-By": "Afosto SaaS BV"
-      },
-      "icon": "Afosto.svg",
-      "website": "http://afosto.com"
-    },
+		"Afosto": {
+			"cats": [
+				"6"
+			],
+			"headers": {
+				"X-Powered-By": "Afosto SaaS BV"
+			},
+			"icon": "Afosto.svg",
+			"website": "http://afosto.com"
+		},
 		"Aircall": {
 			"cats": [
 				"52"
@@ -677,7 +677,7 @@
 			"icon": "Arc Forum.png",
 			"website": "http://arclanguage.org"
 		},
-		"ArcGIS API for JavaScript":{
+		"ArcGIS API for JavaScript": {
 			"cats": [
 				"35"
 			],
@@ -746,7 +746,7 @@
 			"env": "^bitbucket$",
 			"icon": "Atlassian Bitbucket.svg",
 			"implies": "Python",
-      "html": "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9+]\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1</span>",
+			"html": "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9+]\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1</span>",
 			"meta": {
 				"application-name": "Bitbucket"
 			},
@@ -851,11 +851,12 @@
 		},
 		"Bablic": {
 			"cats": [
-				"3","9"
+				"3",
+				"9"
 			],
-			"website":"https://www.bablic.com/",
-			"env":"^bablic$",
-			"icon":"bablic.png"
+			"website": "https://www.bablic.com/",
+			"env": "^bablic$",
+			"icon": "bablic.png"
 		},
 		"Backbone.js": {
 			"cats": [
@@ -947,7 +948,7 @@
 			"script": "bittads\\.com/js/bitt\\.js$",
 			"website": "http://bittads.com"
 		},
-		"Bizweb":{
+		"Bizweb": {
 			"cats": [
 				"6"
 			],
@@ -957,7 +958,8 @@
 		},
 		"Blade": {
 			"cats": [
-				"18", "22"
+				"18",
+				"22"
 			],
 			"headers": {
 				"X-Powered-By": "blade-([\\w.]+)?\\;version:\\1"
@@ -1136,8 +1138,8 @@
 			"icon": "Bugzilla.png",
 			"implies": "Perl",
 			"website": "http://www.bugzilla.org"
-        },
-        "Bulma": {
+		},
+		"Bulma": {
 			"cats": [
 				"18"
 			],
@@ -1595,7 +1597,7 @@
 				"19"
 			],
 			"env": "^CoinHive$",
-			"script":  "\\/(?:coinhive|(authedmine))(?:\\.min)?\\.js\\;version:\\1?opt-in:",
+			"script": "\\/(?:coinhive|(authedmine))(?:\\.min)?\\.js\\;version:\\1?opt-in:",
 			"url": "https?://cnhv.co/",
 			"icon": "CoinHive.svg",
 			"website": "https://coinhive.com"
@@ -1605,7 +1607,7 @@
 				"16"
 			],
 			"html": "(?:<div[^>]+class=\"coinhive-captcha[^>]+data-key|<div[^>]+data-key[^>]+class=\"coinhive-captcha)",
-			"script":  "https?://authedmine.com/(?:lib/captcha|captcha)",
+			"script": "https?://authedmine.com/(?:lib/captcha|captcha)",
 			"icon": "CoinHive.svg",
 			"website": "https://coinhive.com"
 		},
@@ -1831,7 +1833,7 @@
 			"script": "tag\\.crsspxl\\.com/s1\\.js",
 			"website": "http://datadesk.crsspxl.com"
 		},
-    "Crypto-Loot": {
+		"Crypto-Loot": {
 			"cats": [
 				"19"
 			],
@@ -2009,7 +2011,7 @@
 			"icon": "Debian.png",
 			"website": "http://debian.org"
 		},
-    "PHPDebugBar": {
+		"PHPDebugBar": {
 			"cats": [
 				"47"
 			],
@@ -2019,7 +2021,7 @@
 			],
 			"script": [
 				"debugbar.*\\.js"
-      ],
+			],
 			"icon": "phpdebugbar.png",
 			"website": "http://phpdebugbar.com/"
 		},
@@ -2932,19 +2934,19 @@
 			"implies": "PHP",
 			"script": "gm_javascript\\.js\\.php",
 			"website": "http://gambio.de"
-    },
-    "Gatsby": {
+		},
+		"Gatsby": {
 			"cats": [
 				"12"
 			],
-      "html": [
-        "<div id=\"___gatsby\">",
-        "<style id=\"gatsby-inlined-css\">"
-      ],
+			"html": [
+				"<div id=\"___gatsby\">",
+				"<style id=\"gatsby-inlined-css\">"
+			],
 			"icon": "Gatsby.svg",
 			"implies": [
-        "React",
-        "Webpack"
+				"React",
+				"Webpack"
 			],
 			"website": "https://www.gatsbyjs.org/"
 		},
@@ -3833,7 +3835,7 @@
 			"html": "<imp:live-info sysid=\"[0-9a-f-]+\"(?: node_id=\"[0-9/]*\")? *\/>",
 			"icon": "imperiaCMS.svg",
 			"implies": "Perl",
-				"url": "imperia/md/",
+			"url": "imperia/md/",
 			"website": "https://www.pirobase-imperia.com/de/produkte/produktuebersicht/imperia-cms"
 		},
 		"ImpressCMS": {
@@ -4049,8 +4051,8 @@
 			"icon": "JC-HTTPD.png",
 			"implies": "Canon",
 			"website": "http://canon.com"
-        },
-        "JET Enterprise": {
+		},
+		"JET Enterprise": {
 			"cats": [
 				"6"
 			],
@@ -4090,16 +4092,16 @@
 			},
 			"website": "http://www.jalios.com"
 		},
-    "Jahia DX": {
-      "cats": [
-        "1",
-        "47"
-      ],
-      "html": "<script id=\"staticAssetAggregatedJavascrip",
-      "icon": "JahiaDX.svg",
-      "website": "http://www.jahia.com/dx"
-    },
-    "Java": {
+		"Jahia DX": {
+			"cats": [
+				"1",
+				"47"
+			],
+			"html": "<script id=\"staticAssetAggregatedJavascrip",
+			"icon": "JahiaDX.svg",
+			"website": "http://www.jahia.com/dx"
+		},
+		"Java": {
 			"cats": [
 				"27"
 			],
@@ -4321,17 +4323,18 @@
 			"script": "cdn\\.mykamva\\.ir",
 			"website": "http://kamva.ir"
 		},
-        "Hinza Advanced CMS" : {
-            "cats" : [
-                "1", "6"
-            ],
-            "icon": "hinza_advanced_cms.svg",
-            "meta" : {
-                "generator": "hinzacms"
-            },
-            "implies": "Laravel",
-            "website" : "http://hinzaco.com"
-        },
+		"Hinza Advanced CMS": {
+			"cats": [
+				"1",
+				"6"
+			],
+			"icon": "hinza_advanced_cms.svg",
+			"meta": {
+				"generator": "hinzacms"
+			},
+			"implies": "Laravel",
+			"website": "http://hinzaco.com"
+		},
 		"Kendo UI": {
 			"cats": [
 				"18"
@@ -4981,7 +4984,7 @@
 			"html": [
 				"<script [^>]+data-requiremodule=\"mage/\\;version:2",
 				"<script [^>]+data-requiremodule=\"Magento_\\;version:2",
-        "<script type=\"text/x-magento-init\">"
+				"<script type=\"text/x-magento-init\">"
 			],
 			"icon": "Magento.png",
 			"implies": "PHP",
@@ -5061,15 +5064,15 @@
 			"script": "munchkin\\.marketo\\.net/munchkin\\.js",
 			"website": "http://www.marketo.com"
 		},
-    "Material Design Lite": {
-      "cats": [
-        "18"
-      ],
-      "html": "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css",
-      "icon": "Material Design Lite.png",
-      "script": "material(?:\\.min)?\\.js",
-      "website": "https://getmdl.io"
-    },
+		"Material Design Lite": {
+			"cats": [
+				"18"
+			],
+			"html": "<link[^>]* href=\"[^\"]*material(?:\\.[\\w]+-[\\w]+)?(?:\\.min)?\\.css",
+			"icon": "Material Design Lite.png",
+			"script": "material(?:\\.min)?\\.js",
+			"website": "https://getmdl.io"
+		},
 		"Materialize CSS": {
 			"cats": [
 				"18"
@@ -5340,9 +5343,9 @@
 			"cats": [
 				"6"
 			],
-                        "meta": {
-                                "generator": "Mijnwebwinkel"
-                        },
+			"meta": {
+				"generator": "Mijnwebwinkel"
+			},
 			"website": "mijnwebwinkel.nl"
 		},
 		"Milligram": {
@@ -5735,8 +5738,8 @@
 			"env": "^sitestat$",
 			"icon": "Nedstat.png",
 			"website": "http://www.nedstat.com"
-        },
-        "NEO - Omnichannel Commerce Platform": {
+		},
+		"NEO - Omnichannel Commerce Platform": {
 			"cats": [
 				"6"
 			],
@@ -5863,8 +5866,8 @@
 			"headers": {
 				"x-powered-by": "^Next.js ?([0-9.]+)?\\;version:\\1"
 			},
-      "env": "^__NEXT_DATA__$",
-      "icon": "zeit.svg",
+			"env": "^__NEXT_DATA__$",
+			"icon": "zeit.svg",
 			"implies": [
 				"React",
 				"webpack",
@@ -6502,7 +6505,7 @@
 				"1",
 				"11"
 			],
-			"html":[
+			"html": [
 				"<[^>]+id=\"phenomic(?:root)?\""
 			],
 			"icon": "Phenomic.svg",
@@ -6565,14 +6568,14 @@
 			"script": "//assets\\.pinterest\\.com/js/pinit\\.js",
 			"website": "http://pinterest.com"
 		},
-			"pirobase CMS": {
+		"pirobase CMS": {
 			"cats": [
 				"1"
 			],
 			"html": [
-        "<(?:script|link)[^>]/site/[a-z0-9/._-]+/resourceCached/[a-z0-9/._-]+",
-        "<input[^>]+cbi:///cms/"
-      ],
+				"<(?:script|link)[^>]/site/[a-z0-9/._-]+/resourceCached/[a-z0-9/._-]+",
+				"<input[^>]+cbi:///cms/"
+			],
 			"icon": "pirobaseCMS.svg",
 			"implies": "Java",
 			"website": "https://www.pirobase-imperia.com/de/produkte/produktuebersicht/pirobase-cms"
@@ -7083,9 +7086,12 @@
 				"1"
 			],
 			"env": "^Rayo",
-            "icon": "Rayo.png",
-            "implies": [ "AngularJS", "Microsoft ASP.NET" ],
-            "meta": {
+			"icon": "Rayo.png",
+			"implies": [
+				"AngularJS",
+				"Microsoft ASP.NET"
+			],
+			"meta": {
 				"generator": "^Rayo"
 			},
 			"website": "http://www.rayo.ir"
@@ -7388,7 +7394,7 @@
 			"env": "^smf_",
 			"icon": "SMF.png",
 			"implies": "PHP",
-      "html": "credits/?\" title=\"Simple Machines Forum\" target=\"_blank\" class=\"new_win\">SMF ([0-9.]+)</a>\\;version:\\1",
+			"html": "credits/?\" title=\"Simple Machines Forum\" target=\"_blank\" class=\"new_win\">SMF ([0-9.]+)</a>\\;version:\\1",
 			"website": "http://www.simplemachines.org"
 		},
 		"SOBI 2": {
@@ -7805,10 +7811,10 @@
 				"application-name": "Shopware"
 			},
 			"script": [
-        "(?:(shopware)|/web/cache/[0-9]{10}_.+)\\.js\\;version:\\1?4:5",
-        "/jquery\\.shopware\\.min\\.js",
-        "/engine/Shopware/"
-      ],
+				"(?:(shopware)|/web/cache/[0-9]{10}_.+)\\.js\\;version:\\1?4:5",
+				"/jquery\\.shopware\\.min\\.js",
+				"/engine/Shopware/"
+			],
 			"website": "http://shopware.com"
 		},
 		"Silva": {
@@ -8040,7 +8046,9 @@
 			"cats": [
 				"6"
 			],
-			"headers": {"Set-Cookie": "_solusquare=" },
+			"headers": {
+				"Set-Cookie": "_solusquare="
+			},
 			"meta": {
 				"generator": "^Solusquare$"
 			},
@@ -8235,10 +8243,10 @@
 			"website": "http://www.statcounter.com"
 		},
 		"Storeden": {
-			"cats" : [
+			"cats": [
 				"6"
 			],
-			"headers" : {
+			"headers": {
 				"X-Powered-By": "Storeden"
 			},
 			"icon": "storeden.svg",
@@ -8606,7 +8614,7 @@
 			"cats": [
 				"6"
 			],
-      "html": "<link[^>]*tictail\\.com",
+			"html": "<link[^>]*tictail\\.com",
 			"icon": "tictail.png",
 			"website": "https://tictail.com"
 		},
@@ -9609,7 +9617,7 @@
 				"generator": "WordPress( [\\d.]+)?\\;version:\\1"
 			},
 			"headers": {
-				 "link" : "https:\\/\\/api\\.w\\.org\\/"
+				"link": "https:\\/\\/api\\.w\\.org\\/"
 			},
 			"script": "/wp-includes/",
 			"website": "http://wordpress.org"
@@ -10351,7 +10359,7 @@
 				"6"
 			],
 			"env": "^JetshopData$",
-			"html":	"<(?:div|aside) id=\"jetshop-branding\">",
+			"html": "<(?:div|aside) id=\"jetshop-branding\">",
 			"icon": "Jetshop.png",
 			"website": "http://jetshop.se"
 		},
@@ -10602,13 +10610,13 @@
 			],
 			"headers": {
 				"Set-Cookie": "Nop\\.customer="
-			 },
+			},
 			"html": "(?:<!--Powered by nopCommerce|Powered by: <a[^>]+nopcommerce)",
 			"icon": "nopCommerce.png",
 			"implies": "Microsoft ASP.NET",
 			"meta": {
 				"generator": "^nopCommerce$"
-			 },
+			},
 			"website": "http://www.nopcommerce.com"
 		},
 		"openEngine": {
@@ -11024,96 +11032,96 @@
 			},
 			"website": "http://www.xt-commerce.com"
 		},
-    "Raychat": {
-      "cats": [
-        "52"
-      ],
-      "env": "^Raychat$",
-      "icon": "raychat.svg",
-      "script": "app\\.raychat\\.io/scripts/js",
-      "website": "https://raychat.io"
-    },
-    "Mautic": {
-      "cats": [
-        "32"
-      ],
-      "env": "^MauticTrackingObject$",
-      "icon": "mautic.svg",
-      "script": "[^a-z]mtc.*\\.js",
-      "website": "https://www.mautic.org/"
-    },
-    "Anetwork": {
-    	"cats": [
-     		"36"
-    	],
-    	"icon": "Anetwork.png",
-   		"script": "static-cdn\\.anetwork\\.ir/",
-    	"website": "https://www.anetwork.ir"
-   	},
-               "Mijnwebwinkel": {
-                       "cats": [
-                               "6"
-                       ],
-                        "meta": {
-                                "generator": "Mijnwebwinkel"
-                        },
-                       "website": "https://www.mijnwebwinkel.nl"
-               },
-               "Oxatis": {
-                       "cats": [
-                               "6"
-                       ],
-                       "meta": {
-                               "generator": "Oxatis \\(www\\.oxatis\\.com\\)"
-                       },
-                       "website": "https://www.oxatis.com"
-               },
-               "Weezbe": {
-                       "cats": [
-                               "6"
-                       ],
-                       "meta": {
-                               "generator": "weezbe"
-                       },
-                       "website": "https://www.weezbe.com"
-               },
-               "Wizishop": {
-                       "cats": [
-                               "6"
-                       ],
-                       "website": "https://www.wizishop.fr",
-                       "html": "<img[^>]* src=\"http[^\"]*\\.(?:wizishop|cdnws)\\."
-               },
-               "42Stores": {
-                       "cats": [
-                               "6"
-                       ],
-                       "website": "https://www.42stores.com/",
-                       "html": "<script src=\"/?pf="
-               },
-               "CartIconFont-Awesome": {
-                       "cats": [
-                               "6"
-                       ],
-                       "html": "<span class=\"fa fa-shopping-cart\\;confidence:15",
-		       "website": "http://fontawesome.io/"
-               },
-               "One.com webshop": {
+		"Raychat": {
+			"cats": [
+				"52"
+			],
+			"env": "^Raychat$",
+			"icon": "raychat.svg",
+			"script": "app\\.raychat\\.io/scripts/js",
+			"website": "https://raychat.io"
+		},
+		"Mautic": {
+			"cats": [
+				"32"
+			],
+			"env": "^MauticTrackingObject$",
+			"icon": "mautic.svg",
+			"script": "[^a-z]mtc.*\\.js",
+			"website": "https://www.mautic.org/"
+		},
+		"Anetwork": {
+			"cats": [
+				"36"
+			],
+			"icon": "Anetwork.png",
+			"script": "static-cdn\\.anetwork\\.ir/",
+			"website": "https://www.anetwork.ir"
+		},
+		"Mijnwebwinkel": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Mijnwebwinkel"
+			},
+			"website": "https://www.mijnwebwinkel.nl"
+		},
+		"Oxatis": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Oxatis \\(www\\.oxatis\\.com\\)"
+			},
+			"website": "https://www.oxatis.com"
+		},
+		"Weezbe": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "weezbe"
+			},
+			"website": "https://www.weezbe.com"
+		},
+		"Wizishop": {
+			"cats": [
+				"6"
+			],
+			"website": "https://www.wizishop.fr",
+			"html": "<img[^>]* src=\"http[^\"]*\\.(?:wizishop|cdnws)\\."
+		},
+		"42Stores": {
+			"cats": [
+				"6"
+			],
+			"website": "https://www.42stores.com/",
+			"html": "<script src=\"/?pf="
+		},
+		"CartIconFont-Awesome": {
+			"cats": [
+				"6"
+			],
+			"html": "<span class=\"fa fa-shopping-cart\\;confidence:15",
+			"website": "http://fontawesome.io/"
+		},
+		"One.com webshop": {
 			"cats": [
 				"6"
 			],
 			"html": "<onecom-webshop-main class=\"",
 			"website": "https://one.com/"
-               },
-               "E-nitiative.be": {
+		},
+		"E-nitiative.be": {
 			"cats": [
 				"6"
 			],
 			"robotsTxt": "Disallow: /order/summery/",
 			"html": "<p class=\"enitiative_link\" align=\"center\">",
 			"website": "http://www.e-nitiative.be/"
-               },
-	       "KingEshop": {
+		},
+		"KingEshop": {
 			"cats": [
 				"6"
 			],
@@ -11123,61 +11131,61 @@
 				"generator": "KingEshop - Copyright by https://www.kingeshop.com"
 			},
 			"website": "https://www.kingeshop.com/"
-	       },
-               "VersaCommerce": {
-                       "cats": [
-                               "6"
-                       ],
-                       "website": "https://www.versacommerce.de",
-                       "html": "<img[^>]* src=\"\\/\\/static-[0-9]+\\.(?:versacommerce\\.de)\\/"
-               },
-               "Supreme": {
+		},
+		"VersaCommerce": {
 			"cats": [
 				"6"
 			],
-                        "headers": {
-                                "Set-Cookie": "^SUPRSessionId"
-                        },
+			"website": "https://www.versacommerce.de",
+			"html": "<img[^>]* src=\"\\/\\/static-[0-9]+\\.(?:versacommerce\\.de)\\/"
+		},
+		"Supreme": {
+			"cats": [
+				"6"
+			],
+			"headers": {
+				"Set-Cookie": "^SUPRSessionId"
+			},
 			"meta": {
 				"generator": "SUPR"
 			},
 			"html": "<link rel=\"stylesheet\" type=\"text\\/css\" href=\"\\/bundles\\/suprtrailer",
 			"implies": "WordPress",
 			"website": "https://www.supreme.de/"
-               },
-               "CosmoShop": {
-                       "cats": [
-                               "6"
-                       ],
-                       "meta": {
-                               "generator": "Cosmoshop"
-                       },
-                       "website": "https://www.cosmoshop.de/"
-               },
-	       "CCV-Shop": {
+		},
+		"CosmoShop": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Cosmoshop"
+			},
+			"website": "https://www.cosmoshop.de/"
+		},
+		"CCV-Shop": {
 			"cats": [
 				"6"
 			],
 			"script": "/Global/Includes/xAjax/xajax_js/xajax\\.js",
 			"website": "https://www.ccvshop.be/fr"
-               },
-               "ElexioShop": {
+		},
+		"ElexioShop": {
 			"cats": [
 				"6"
 			],
 			"website": "http://www.elexioshop.nl/",
 			"script": "//websitemaker\\.hostnet\\.nl/cm4all-"
-               },
-	       "Bluepark": {
+		},
+		"Bluepark": {
 			"cats": [
 				"6"
 			],
 			"headers": {
 				"Set-Cookie": "^BPSESSID"
-		},
+			},
 			"html": "<a href=\"http:\\/\\/www.bluepark\\.co\\.uk\" target=\"_blank\">eCommerce Software by Bluepark</a>",
 			"website": "https://www.bluepark.co.uk/"
-               },
+		},
 		"Akaunting": {
 			"cats": [
 				"55"
@@ -11407,10 +11415,10 @@
 			"name": "CRM",
 			"priority": "9"
 		},
-    "54": {
-      "name": "SEO",
-      "priority": "9"
-    },
+		"54": {
+			"name": "SEO",
+			"priority": "9"
+		},
 		"55": {
 			"name": "Accounting",
 			"priority": "1"
