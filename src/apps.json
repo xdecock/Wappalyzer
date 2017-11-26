@@ -771,7 +771,7 @@
 			"env": "^bitbucket$",
 			"icon": "Atlassian Bitbucket.svg",
 			"implies": "Python",
-      "html": "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9]+\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1",
+            "html": "<li>Atlassian Bitbucket <span title=\"[a-z0-9]+\" id=\"product-version\" data-commitid=\"[a-z0-9]+\" data-system-build-number=\"[a-z0-9]+\"> v([\\d.]+)<\\;version:\\1",
 			"meta": {
 				"application-name": "Bitbucket"
 			},
@@ -5388,9 +5388,9 @@
 			"cats": [
 				"6"
 			],
-                        "meta": {
-                                "generator": "Mijnwebwinkel"
-                        },
+			"meta": {
+				"generator": "Mijnwebwinkel"
+			},
 			"website": "mijnwebwinkel.nl"
 		},
 		"Milligram": {
@@ -9726,7 +9726,7 @@
 				"generator": "WordPress( [\\d.]+)?\\;version:\\1"
 			},
 			"headers": {
-				 "link" : "https:\\/\\/api\\.w\\.org\\/"
+				"link": "https:\\/\\/api\\.w\\.org\\/"
 			},
 			"script": "/wp-includes/",
 			"website": "http://wordpress.org"
@@ -11152,96 +11152,96 @@
 			},
 			"website": "http://www.xt-commerce.com"
 		},
-    "Raychat": {
-      "cats": [
-        "52"
-      ],
-      "env": "^Raychat$",
-      "icon": "raychat.svg",
-      "script": "app\\.raychat\\.io/scripts/js",
-      "website": "https://raychat.io"
-    },
-    "Mautic": {
-      "cats": [
-        "32"
-      ],
-      "env": "^MauticTrackingObject$",
-      "icon": "mautic.svg",
-      "script": "[^a-z]mtc.*\\.js",
-      "website": "https://www.mautic.org/"
-    },
-    "Anetwork": {
-    	"cats": [
-     		"36"
-    	],
-    	"icon": "Anetwork.png",
-   		"script": "static-cdn\\.anetwork\\.ir/",
-    	"website": "https://www.anetwork.ir"
-   	},
-               "Mijnwebwinkel": {
-                       "cats": [
-                               "6"
-                       ],
-                        "meta": {
-                                "generator": "Mijnwebwinkel"
-                        },
-                       "website": "https://www.mijnwebwinkel.nl"
-               },
-               "Oxatis": {
-                       "cats": [
-                               "6"
-                       ],
-                       "meta": {
-                               "generator": "Oxatis \\(www\\.oxatis\\.com\\)"
-                       },
-                       "website": "https://www.oxatis.com"
-               },
-               "Weezbe": {
-                       "cats": [
-                               "6"
-                       ],
-                       "meta": {
-                               "generator": "weezbe"
-                       },
-                       "website": "https://www.weezbe.com"
-               },
-               "Wizishop": {
-                       "cats": [
-                               "6"
-                       ],
-                       "website": "https://www.wizishop.fr",
-                       "html": "<img[^>]* src=\"http[^\"]*\\.(?:wizishop|cdnws)\\."
-               },
-               "42Stores": {
-                       "cats": [
-                               "6"
-                       ],
-                       "website": "https://www.42stores.com/",
-                       "html": "<script src=\"/?pf="
-               },
-               "CartIconFont-Awesome": {
-                       "cats": [
-                               "6"
-                       ],
-                       "html": "<span class=\"fa fa-shopping-cart\\;confidence:15",
-		       "website": "http://fontawesome.io/"
-               },
-               "One.com webshop": {
+		"Raychat": {
+			"cats": [
+				"52"
+			],
+			"env": "^Raychat$",
+			"icon": "raychat.svg",
+			"script": "app\\.raychat\\.io/scripts/js",
+			"website": "https://raychat.io"
+		},
+		"Mautic": {
+			"cats": [
+				"32"
+			],
+			"env": "^MauticTrackingObject$",
+			"icon": "mautic.svg",
+			"script": "[^a-z]mtc.*\\.js",
+			"website": "https://www.mautic.org/"
+		},
+		"Anetwork": {
+			"cats": [
+				"36"
+			],
+			"icon": "Anetwork.png",
+			"script": "static-cdn\\.anetwork\\.ir/",
+			"website": "https://www.anetwork.ir"
+		},
+		"Mijnwebwinkel": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Mijnwebwinkel"
+			},
+			"website": "https://www.mijnwebwinkel.nl"
+		},
+		"Oxatis": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Oxatis \\(www\\.oxatis\\.com\\)"
+			},
+			"website": "https://www.oxatis.com"
+		},
+		"Weezbe": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "weezbe"
+			},
+			"website": "https://www.weezbe.com"
+		},
+		"Wizishop": {
+			"cats": [
+				"6"
+			],
+			"website": "https://www.wizishop.fr",
+			"html": "<img[^>]* src=\"http[^\"]*\\.(?:wizishop|cdnws)\\."
+		},
+		"42Stores": {
+			"cats": [
+				"6"
+			],
+			"website": "https://www.42stores.com/",
+			"html": "<script src=\"/?pf="
+		},
+		"CartIconFont-Awesome": {
+			"cats": [
+				"6"
+			],
+			"html": "<span class=\"fa fa-shopping-cart\\;confidence:15",
+			"website": "http://fontawesome.io/"
+		},
+		"One.com webshop": {
 			"cats": [
 				"6"
 			],
 			"html": "<onecom-webshop-main class=\"",
 			"website": "https://one.com/"
-               },
-               "E-nitiative.be": {
+		},
+		"E-nitiative.be": {
 			"cats": [
 				"6"
 			],
 			"robotsTxt": "Disallow: /order/summery/",
 			"html": "<p class=\"enitiative_link\" align=\"center\">",
 			"website": "http://www.e-nitiative.be/"
-               },
-	       "KingEshop": {
+		},
+		"KingEshop": {
 			"cats": [
 				"6"
 			],
@@ -11251,61 +11251,61 @@
 				"generator": "KingEshop - Copyright by https://www.kingeshop.com"
 			},
 			"website": "https://www.kingeshop.com/"
-	       },
-               "VersaCommerce": {
-                       "cats": [
-                               "6"
-                       ],
-                       "website": "https://www.versacommerce.de",
-                       "html": "<img[^>]* src=\"\\/\\/static-[0-9]+\\.(?:versacommerce\\.de)\\/"
-               },
-               "Supreme": {
+		},
+		"VersaCommerce": {
 			"cats": [
 				"6"
 			],
-                        "headers": {
-                                "Set-Cookie": "^SUPRSessionId"
-                        },
+			"website": "https://www.versacommerce.de",
+			"html": "<img[^>]* src=\"\\/\\/static-[0-9]+\\.(?:versacommerce\\.de)\\/"
+		},
+		"Supreme": {
+			"cats": [
+				"6"
+			],
+			"headers": {
+				"Set-Cookie": "^SUPRSessionId"
+			},
 			"meta": {
 				"generator": "SUPR"
 			},
 			"html": "<link rel=\"stylesheet\" type=\"text\\/css\" href=\"\\/bundles\\/suprtrailer",
 			"implies": "WordPress",
 			"website": "https://www.supreme.de/"
-               },
-               "CosmoShop": {
-                       "cats": [
-                               "6"
-                       ],
-                       "meta": {
-                               "generator": "Cosmoshop"
-                       },
-                       "website": "https://www.cosmoshop.de/"
-               },
-	       "CCV-Shop": {
+		},
+		"CosmoShop": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "Cosmoshop"
+			},
+			"website": "https://www.cosmoshop.de/"
+		},
+		"CCV-Shop": {
 			"cats": [
 				"6"
 			],
 			"script": "/Global/Includes/xAjax/xajax_js/xajax\\.js",
 			"website": "https://www.ccvshop.be/fr"
-               },
-               "ElexioShop": {
+		},
+		"ElexioShop": {
 			"cats": [
 				"6"
 			],
 			"website": "http://www.elexioshop.nl/",
 			"script": "//websitemaker\\.hostnet\\.nl/cm4all-"
-               },
-	       "Bluepark": {
+		},
+		"Bluepark": {
 			"cats": [
 				"6"
 			],
 			"headers": {
 				"Set-Cookie": "^BPSESSID"
-		},
+			},
 			"html": "<a href=\"http:\\/\\/www.bluepark\\.co\\.uk\" target=\"_blank\">eCommerce Software by Bluepark</a>",
 			"website": "https://www.bluepark.co.uk/"
-               },
+		},
 		"Akaunting": {
 			"cats": [
 				"55"
