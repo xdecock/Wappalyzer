@@ -5969,10 +5969,10 @@
 			"cats": [
 				"5"
 			],
-			"html": "<link [^>]*href=\"[^\"]+owl.carousel(?:\\.min)?\\.css",
+			"html": "<link [^>]*href=\"[^\"]+owl\\.carousel(?:\\.min)?\\.css",
 			"icon": "OWL Carousel.png",
 			"implies": "jQuery",
-			"script": "owl.carousel.*\\.js",
+			"script": "owl\\.carousel.*\\.js",
 			"website": "https://owlcarousel2.github.io/OwlCarousel2/"
 		},
 		"OXID eShop": {
@@ -6571,7 +6571,7 @@
 			"implies": [
 				"React"
 			],
-			"script": "/phenomic.browser.[a-f0-9]+.js",
+			"script": "/phenomic\\.browser\\.[a-f0-9]+\\.js",
 			"website": "https://phenomic.io/"
 		},
 		"PHPoole": {
@@ -9261,7 +9261,7 @@
 			},
 			"icon": "vigbo.png",
 			"html": "<link[^>]* href=[^>]+(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
-			"script": "(?:\\.vigbo.com|\\.gophotoweb\\.com)",
+			"script": "(?:\\.vigbo\\.com|\\.gophotoweb\\.com)",
 			"website": "https://vigbo.com"
 		},
 		"VigLink": {
@@ -11248,7 +11248,7 @@
 			"meta": {
 				"copyright": "Copyright \\(c\\) by KingEshop",
 				"publisher": "KingEshop - Copyright by https://www\\.kingeshop\\.com",
-				"generator": "KingEshop - Copyright by https://www.kingeshop.com"
+				"generator": "KingEshop - Copyright by https://www\\.kingeshop\\.com"
 			},
 			"website": "https://www.kingeshop.com/"
 		},
@@ -11303,7 +11303,7 @@
 			"headers": {
 				"Set-Cookie": "^BPSESSID"
 			},
-			"html": "<a href=\"http:\\/\\/www.bluepark\\.co\\.uk\" target=\"_blank\">eCommerce Software by Bluepark</a>",
+			"html": "<a href=\"http:\\/\\/www\\.bluepark\\.co\\.uk\" target=\"_blank\">eCommerce Software by Bluepark</a>",
 			"website": "https://www.bluepark.co.uk/"
 		},
 		"Akaunting": {
