@@ -6360,15 +6360,6 @@
 			"url": "/owa/auth/log(?:on|off)\\.aspx",
 			"website": "http://help.outlook.com"
 		},
-		"Oxatys": {
-			"cats": [
-				"6"
-			],
-			"meta": {
-				"generator": "Oxatis (www.oxatis.com)"
-			},
-			"website": "www.oxatis.com"
-		},
 		"PANSITE": {
 			"cats": [
 				"1"
@@ -9665,13 +9656,6 @@
 			},
 			"website": "http://winstone.sourceforge.net"
 		},
-		"Wizishop": {
-			"cats": [
-				"6"
-			],
-			"website": "https://www.wizishop.fr",
-			"html": "\\.(?:wizishop|cdnws)\\."
-		},
 		"Wix": {
 			"cats": [
 				"1"
@@ -9740,6 +9724,9 @@
 			"implies": "PHP",
 			"meta": {
 				"generator": "WordPress( [\\d.]+)?\\;version:\\1"
+			},
+			"headers": {
+				 "link" : "https:\\/\\/api\\.w\\.org\\/"
 			},
 			"script": "/wp-includes/",
 			"website": "http://wordpress.org"
@@ -11198,16 +11185,16 @@
                         "meta": {
                                 "generator": "Mijnwebwinkel"
                         },
-                       "website": "mijnwebwinkel.nl"
+                       "website": "https://www.mijnwebwinkel.nl"
                },
-               "Oxatys": {
+               "Oxatis": {
                        "cats": [
                                "6"
                        ],
                        "meta": {
-                               "generator": "Oxatis (www.oxatis.com)"
+                               "generator": "Oxatis \\(www\\.oxatis\\.com\\)"
                        },
-                       "website": "www.oxatis.com"
+                       "website": "https://www.oxatis.com"
                },
                "Weezbe": {
                        "cats": [
@@ -11223,26 +11210,28 @@
                                "6"
                        ],
                        "website": "https://www.wizishop.fr",
-                       "html": "\\.(?:wizishop|cdnws)\\."
+                       "html": "<img[^>]* src=\"http[^\"]*\\.(?:wizishop|cdnws)\\."
                },
                "42Stores": {
                        "cats": [
                                "6"
                        ],
                        "website": "https://www.42stores.com/",
-                       "html": "/?pf="
+                       "html": "<script src=\"/?pf="
                },
                "CartIconFont-Awesome": {
                        "cats": [
                                "6"
                        ],
-                       "html": "fa fa-shopping-cart\\;confidence:15"
+                       "html": "<span class=\"fa fa-shopping-cart\\;confidence:15",
+		       "website": "http://fontawesome.io/"
                },
                "One.com webshop": {
 			"cats": [
 				"6"
 			],
-			"html": "<onecom-webshop-main class=\""
+			"html": "<onecom-webshop-main class=\"",
+			"website": "https://one.com/"
                },
                "E-nitiative.be": {
 			"cats": [
@@ -11251,6 +11240,71 @@
 			"robotsTxt": "Disallow: /order/summery/",
 			"html": "<p class=\"enitiative_link\" align=\"center\">",
 			"website": "http://www.e-nitiative.be/"
+               },
+	       "KingEshop": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"copyright": "Copyright \\(c\\) by KingEshop",
+				"publisher": "KingEshop - Copyright by https://www\\.kingeshop\\.com",
+				"generator": "KingEshop - Copyright by https://www.kingeshop.com"
+			},
+			"website": "https://www.kingeshop.com/"
+	       },
+               "VersaCommerce": {
+                       "cats": [
+                               "6"
+                       ],
+                       "website": "https://www.versacommerce.de",
+                       "html": "<img[^>]* src=\"\\/\\/static-[0-9]+\\.(?:versacommerce\\.de)\\/"
+               },
+               "Supreme": {
+			"cats": [
+				"6"
+			],
+                        "headers": {
+                                "Set-Cookie": "^SUPRSessionId"
+                        },
+			"meta": {
+				"generator": "SUPR"
+			},
+			"html": "<link rel=\"stylesheet\" type=\"text\\/css\" href=\"\\/bundles\\/suprtrailer",
+			"implies": "WordPress",
+			"website": "https://www.supreme.de/"
+               },
+               "CosmoShop": {
+                       "cats": [
+                               "6"
+                       ],
+                       "meta": {
+                               "generator": "Cosmoshop"
+                       },
+                       "website": "https://www.cosmoshop.de/"
+               },
+	       "CCV-Shop": {
+			"cats": [
+				"6"
+			],
+			"script": "/Global/Includes/xAjax/xajax_js/xajax\\.js",
+			"website": "https://www.ccvshop.be/fr"
+               },
+               "ElexioShop": {
+			"cats": [
+				"6"
+			],
+			"website": "http://www.elexioshop.nl/",
+			"script": "//websitemaker\\.hostnet\\.nl/cm4all-"
+               },
+	       "Bluepark": {
+			"cats": [
+				"6"
+			],
+			"headers": {
+				"Set-Cookie": "^BPSESSID"
+		},
+			"html": "<a href=\"http:\\/\\/www.bluepark\\.co\\.uk\" target=\"_blank\">eCommerce Software by Bluepark</a>",
+			"website": "https://www.bluepark.co.uk/"
                },
 		"Akaunting": {
 			"cats": [
