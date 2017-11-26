@@ -88,6 +88,7 @@ class Driver {
       this.wappalyzer.log('depth: ' + depth + '; delay: ' + ( this.options.delay * index ) + 'ms; url: ' + pageUrl.href, 'driver');
 
       const browser = new Browser({
+        silent: true,
         userAgent: this.options.userAgent,
         waitDuration: this.options.maxWait + 'ms',
       });
@@ -114,8 +115,15 @@ class Driver {
                   headers[header[0]].push(header[1]);
                 });
 
+                let html = '';
+
+                try {
+                  html = browser.html();
+                } catch ( e ) {
+                  this.wappalyzer.log(error.message, 'browser', 'error');
+                }
+
                 const vars = Object.getOwnPropertyNames(browser.window);
-                const html = browser.html();
                 const scripts = Array.prototype.slice
                   .apply(browser.document.scripts)
                   .filter(s => s.src)
