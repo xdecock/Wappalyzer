@@ -11306,6 +11306,36 @@
 			"html": "<a href=\"http:\\/\\/www\\.bluepark\\.co\\.uk\" target=\"_blank\">eCommerce Software by Bluepark</a>",
 			"website": "https://www.bluepark.co.uk/"
 		},
+		"Google Analytics E-Commerce": {
+			"cats": [
+				"6", "10"
+			],
+			"html": [
+				"ecommerce:send", "ecommerce:clear", "require', 'ecommerce'"
+			],
+			"implies": "Google Analytics",
+			"website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce"
+		},
+		"Google Analytics Enhanced Commerce": {
+			"cats": [
+				"6", "10"
+			],
+			"html": [
+				"ecommerce:send", "ecommerce:clear", "require', 'ec'"
+			],
+			"implies": "Google Analytics",
+			"website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce"
+		},		
+		"Google Analytics Display Features": {
+			"cats": [
+				"36"
+			],
+			"html": [
+				"require', 'displayfeatures'"
+			],
+			"implies": "Google Analytics",
+			"website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce"
+		},
 		"Akaunting": {
 			"cats": [
 				"55"
