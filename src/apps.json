@@ -11311,7 +11311,8 @@
 				"6", "10"
 			],
 			"html": [
-				"ecommerce:send", "ecommerce:clear", "require', 'ecommerce'"
+				"ga\\('([a-zA-Z0-9]+\\.)?require', 'ecommerce'\\)",
+				"ga\\(\"([a-zA-Z0-9]+\\.)?require\", \"ecommerce\"\\)"
 			],
 			"implies": "Google Analytics",
 			"website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce"
@@ -11321,7 +11322,8 @@
 				"6", "10"
 			],
 			"html": [
-				"ecommerce:send", "ecommerce:clear", "require', 'ec'"
+				"ga\\('([a-zA-Z0-9]+\\.)?require', 'ec'\\)",
+				"ga\\(\"([a-zA-Z0-9]+\\.)?require\", \"ec\"\\)"
 			],
 			"implies": "Google Analytics",
 			"website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce"
@@ -11331,10 +11333,83 @@
 				"36"
 			],
 			"html": [
-				"require', 'displayfeatures'"
+				"ga\\('([a-zA-Z0-9]+\\.)?require', 'displayfeatures'\\)",
+				"ga\\(\"([a-zA-Z0-9]+\\.)?require\", \"displayfeatures\"\\)"
 			],
 			"implies": "Google Analytics",
 			"website": "https://developers.google.com/analytics/devguides/collection/analyticsjs/ecommerce"
+		},
+		"Sylius Ecommerce": {
+			"cats": [
+				"6"
+			],
+			"html": [
+				"<img src=\"[^\"]+\\/media\\/cache\\/sylius_shop_product\\/\">",
+				"<form name=\"sylius_add_to_cart\" method=\"post\"[^>]+>"
+			],
+			"implies": "Symfony"
+		},
+		"ShopWare" : {
+			"cats": [
+				"6"
+			],
+			"html": [
+				"<link rel=[^>]+ href=\"\\/engine\\/Shopware\\/\"",
+				"<a href=\"/shopware.php"
+			],
+			"implies": "Symfony"
+		},
+		"Shuup" : {
+			"cats": [
+				"6"
+			],
+			"html": [
+				"<(script|img) src=\"\\/static\\/shuup",
+				"<link href=\"\\/static\\/shuup"
+			],
+			"implies": "Python"
+		},
+		"Microweber": {
+			"cats": [
+				"1"
+			],
+			"meta": {
+				"generator": "Microweber"
+			},
+			"implies": "Laravel",
+			"website": "http://microweber.com"
+		},
+		"WellCommerce": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"author": "WellCommerce.org"
+			},
+			"implies": "Symfony",
+			"website": "http://wellcommerce.org/"
+		},
+		"Thirty bees": {
+			"cats": [
+				"6"
+			],
+			"meta": {
+				"generator": "thirty bees"
+			},
+			"implies": "PHP",
+			"excludes": "PrestaShop",
+			"website": "https://thirtybees.com/"
+		},
+		"Jigoshop": {
+			"cats": [
+				"6"
+			],
+			"html": [
+				"<link rel='stylesheet' id='jigoshop_",
+				"<link rel=\"stylesheet\" id=\"jigoshop_"
+			],
+			"implies": "Wordpress",
+			"website": "https://www.jigoshop.com"
 		},
 		"Akaunting": {
 			"cats": [
